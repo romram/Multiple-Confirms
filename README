@@ -1,0 +1,10 @@
+Adds the support for adding multiple confirm boxes in Rails.
+
+User will be prompted with multiple confirm boxes one after the other.
+
+Example:
+<%= link_to 'Delete User', user_path(@current_user), 
+			:method => :delete, 
+			:confirm => ["Are you sure you want to delete this user?", "Your action will be reported to the system administrator. Do you want to continue?"]
+
+
