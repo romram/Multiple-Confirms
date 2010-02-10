@@ -8,3 +8,5 @@ Example:
 			:confirm => ["Are you sure you want to delete this user?", "Your action will be reported to the system administrator. Do you want to continue?"]
 
 
+
+
